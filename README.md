@@ -15,7 +15,7 @@ SPDX-FileCopyrightText: 2011-2020 Carles Fernandez-Prades <carles.fernandez@cttc
 
 **Bienvenido a GNU-SDR!**
 
-&#128752; Este es un libro creado por estudiantes de Ingenieria Electronica de la Universidad de Cundinamarca,  de la materia Microondas, sobre GNUradio el cual contiene diferentes programas y desarrollos sobre nuestra actividad realizada durante el semestre.&#128752;
+&#128752; Este es un libro creado por estudiantes de Ingenieria Electronica de la Universidad de Cundinamarca,  de la materia Microondas, sobre GNUradio el cual contiene diferentes programas y desarrollos realizados durante los diferentes semestres. En este libro se ecuentran procesos de FFT, AM y FM .&#128752;
 
 # Compilacion del libro
 
@@ -90,7 +90,7 @@ Damos enter y esperamos unos minutos mientras se compila nuestro libro.
 
 ### Instalacion de GNUradio 3.7
 
-Instalacion del programa, para este caso se recomienda utilizar [GNUradio 3.7](https://www.gnuradio.org/), ya que las versiones superiores no contienen el bloque WX, para obtener esto entonces se procede lo siguiente:
+Instalacion del programa, para este caso es necesario utilizar [GNUradio 3.7](https://www.gnuradio.org/), ya que las versiones superiores no contienen el bloque WXguit. Te niendo encuenta esto se procede a lo siguiente:
 
 #### Debian / Ubuntu
 
