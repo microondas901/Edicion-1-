@@ -19,7 +19,69 @@ SPDX-FileCopyrightText: 2011-2020 Carles Fernandez-Prades <carles.fernandez@cttc
 
 # Compilacion del libro
 
+### Pasos previos a la compilacion  🚀 🚀 🚀
 
+Para comenzar debemos hacer un git clone del libro directamente del repositorio desde la cosola
+
+```
+$ git clone git@github.com:microondas901/Edicion-1-.git
+```
+
+seguido de esto debemos  de  tener instalado otras 2 herramientas para poder compilar el libro las cuales son:
+
+la primera es inkscape, en caso tal de no tener instalada  basta con solo ingresar el siguente comando en consola:
+
+**para tener en cuenta:** los siguiente comandos son dependiendo de las distro linux que estes utilizando.
+
+####  Comando para linux mint  :
+
+```
+$ sudo apt-get install inksacape 
+```
+
+####  Comando para ubuntu  :
+
+```
+$ sudo apt-get install inksacape 
+```
+
+la segunda es tex live en la version minima  para poder compilar de .tex a .pdf.
+
+### los comandos son:
+
+####  Comando para linux mint  :
+
+```
+$ sudo apt-get install texlive-latex-base 
+```
+
+#### Comando para ubuntu  :
+
+```
+$ sudo apt-get install texlive-latex-base 
+```
+
+### Compilacion del libro ⚙️⚙️⚙️
+
+lo primero que tenemos que hacer para proceder con la compilaciones del libro en caso tal de que se enuentre el formato zip es proceder a descomprimir una ves que se descomprima arrojara una carpeta la cua contiene todos los archivos nesesarios para la compilacion.
+
+:red_circle: nota: ***lo descrito anterior es para aquellos que descargran el libro directamente del repositorio si usted clono el repositorio omita este paso***
+
+Una ves aclarado esto ahora si procederemos a iniciar nuestra compilacion del libro, ubicamos la carpeta que contine todo lo nesesario para la compilacion y damos sobre ella click derecho y damos en la opcion abrir con la teminal.
+
+Cuando la terminal abra procederemos a escribir el siguiente comando:
+
+```
+$ make
+```
+
+Que en este caso se veria asi:
+
+```
+/Edicion-1--master$ make
+```
+
+Damos enter y esperamos unos minutos mientras se compila nuestro libro.
 
 # GNUradio/Linux
 
@@ -49,10 +111,24 @@ $sudo apt-get install gnuradio
 
 En este punto, la intruccion que se tiene, es si, `desea instalar(s/N)`, para este punto se ingresa la `s`. Finzaliza y procede a ejecturar. 
 
-#### MI
+#### Mint
 
+Para instlar el programa se recomienda tener Mint tara para evitar que versiones siguientes de GNUradio superior a 3.7.11.
 
-### Instalacion de otras dependencias
+Se inicia en super usuario y se actualizan datos y paquetes
+
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
+
+Una vez termine el proceso se ingresa
+
+```
+$sudo apt-get install gnuradio
+```
+
+En este punto, la intruccion que se tiene, es si, `desea instalar(s/N)`, para este punto se ingresa la `s`. Finzaliza y procede a ejecturar. 
 
 
 # Publicaciones y creditos
