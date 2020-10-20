@@ -13,7 +13,7 @@ SPDX-FileCopyrightText: 2011-2020 Carles Fernandez-Prades <carles.fernandez@cttc
 [![REUSE status](https://api.reuse.software/badge/github.com/gnss-sdr/gnss-sdr)](https://api.reuse.software/info/github.com/gnss-sdr/gnss-sdr)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-**Bienvenido a GNSS-SDR!**
+**Bienvenido a GNU-SDR!**
 
 &#128752; Este es un libro creado por estudiantes de Ingenieria Electronica de la Universidad de Cundinamarca,  de la materia Microondas, sobre GNUradio el cual contiene diferentes programas y desarrollos sobre nuestra actividad realizada durante el semestre.&#128752;
 
