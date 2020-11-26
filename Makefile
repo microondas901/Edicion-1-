@@ -6,7 +6,7 @@
 
 a_svg = $(patsubst %.svg,%.pdf,$(wildcard *.svg))
 
-dirs = parte1/intro/svg parte1/lab00/svg \
+dirs = parte1/intro/svg parte1/lab2-2/svg \
        parte1/lab1/svg parte1/lab2/svg   \
        parte1/lab3/svg parte1/lab4/svg  \
        parte1/lab5/svg parte2/lab6/svg \
