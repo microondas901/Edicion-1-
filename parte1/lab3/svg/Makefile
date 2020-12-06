@@ -11,8 +11,8 @@ todo: $(asvg)
 
 ../pdf/%.pdf: %.svg
 	@echo ---- Generando el $@ con $< ...
-	[ -d ../pdf ] || mkdir -v ../pdf 
 	inkscape -D -A $@ $<
+	#mv $@ ../pdf
 
 clean:
 	@echo  Borrando: $(asvg)

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.11'?>
+<?grc format='1' created='3.7.10'?>
 <flow_graph>
-  <timestamp>Sat Nov  7 15:56:29 2020</timestamp>
+  <timestamp>Fri Mar  2 16:22:02 2018</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -82,7 +82,7 @@
     </param>
   </block>
   <block>
-    <key>variable_static_text</key>
+    <key>variable_slider</key>
     <param>
       <key>comment</key>
       <value></value>
@@ -93,54 +93,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>5</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>formatter</key>
-      <value>None</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(408, 332)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>3,4,1,1</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>Fase</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-  </block>
-  <block>
-    <key>variable_chooser</key>
-    <param>
-      <key>choices</key>
-      <value>[1, 2, 3,4,5,6,7,8,9]</value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>1</value>
+      <value>1000</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -148,7 +101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 84)</value>
+      <value>(304, 208)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -156,125 +109,35 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value>1,0,2,1</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>fase</value>
-    </param>
-    <param>
-      <key>label</key>
       <value></value>
     </param>
     <param>
-      <key>labels</key>
-      <value>[]</value>
+      <key>id</key>
+      <value>freg</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>Frecuency</value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>16000</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>0</value>
     </param>
     <param>
       <key>notebook</key>
       <value></value>
+    </param>
+    <param>
+      <key>num_steps</key>
+      <value>100</value>
     </param>
     <param>
       <key>style</key>
-      <value>wx.RA_HORIZONTAL</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>drop_down</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_check_box</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>false</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(344, 76)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>1,4,2,1</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>frecuencia</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
-      <key>true</key>
-      <value>True</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_text_box</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>converver</key>
-      <value>float_converter</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>formatter</key>
-      <value>None</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(16, 348)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>3,0,1,1</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>periodo</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
+      <value>wx.SL_HORIZONTAL</value>
     </param>
   </block>
   <block>
@@ -289,7 +152,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(208, 4)</value>
+      <value>(8, 160)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -301,14 +164,14 @@
     </param>
     <param>
       <key>value</key>
-      <value>32000</value>
+      <value>48000</value>
     </param>
   </block>
   <block>
-    <key>analog_sig_source_x</key>
+    <key>analog_noise_source_x</key>
     <param>
       <key>amp</key>
-      <value>1</value>
+      <value>0.700</value>
     </param>
     <param>
       <key>alias</key>
@@ -324,7 +187,62 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(288, 20)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>analog_noise_source_x_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>noise_type</key>
+      <value>analog.GR_GAUSSIAN</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>seed</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>analog_sig_source_x</key>
+    <param>
+      <key>amp</key>
+      <value>0.700</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
     </param>
     <param>
       <key>freq</key>
@@ -332,7 +250,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(32, 228)</value>
+      <value>(304, 104)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -368,7 +286,7 @@
     </param>
   </block>
   <block>
-    <key>blocks_throttle</key>
+    <key>audio_sink</key>
     <param>
       <key>alias</key>
       <value></value>
@@ -382,87 +300,36 @@
       <value></value>
     </param>
     <param>
+      <key>device_name</key>
+      <value></value>
+    </param>
+    <param>
       <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(216, 252)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_throttle_0</value>
-    </param>
-    <param>
-      <key>ignoretag</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>samples_per_second</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>vlen</key>
       <value>1</value>
     </param>
-  </block>
-  <block>
-    <key>notebook</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
     <param>
       <key>_coordinate</key>
-      <value>(184, 92)</value>
+      <value>(632, 156)</value>
     </param>
     <param>
       <key>_rotation</key>
       <value>0</value>
     </param>
     <param>
-      <key>grid_pos</key>
-      <value></value>
-    </param>
-    <param>
       <key>id</key>
-      <value>notebook_0</value>
+      <value>audio_sink_0</value>
     </param>
     <param>
-      <key>labels</key>
-      <value>['FUNCION SENO']</value>
+      <key>num_inputs</key>
+      <value>1</value>
     </param>
     <param>
-      <key>notebook</key>
-      <value></value>
+      <key>ok_to_block</key>
+      <value>True</value>
     </param>
     <param>
-      <key>style</key>
-      <value>wx.NB_TOP</value>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
     </param>
   </block>
   <block>
@@ -485,11 +352,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(400, 212)</value>
+      <value>(592, 48)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -497,7 +364,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value>1,1,3,3</value>
+      <value></value>
     </param>
     <param>
       <key>id</key>
@@ -553,13 +420,25 @@
     </param>
   </block>
   <connection>
-    <source_block_id>analog_sig_source_x_0</source_block_id>
-    <sink_block_id>blocks_throttle_0</sink_block_id>
+    <source_block_id>analog_noise_source_x_0</source_block_id>
+    <sink_block_id>audio_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_throttle_0</source_block_id>
+    <source_block_id>analog_noise_source_x_0</source_block_id>
+    <sink_block_id>wxgui_scopesink2_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>analog_sig_source_x_0</source_block_id>
+    <sink_block_id>audio_sink_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>analog_sig_source_x_0</source_block_id>
     <sink_block_id>wxgui_scopesink2_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
