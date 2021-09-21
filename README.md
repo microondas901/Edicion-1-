@@ -19,7 +19,7 @@ sudo apt-get install inksacape
 ```
 ###  comando para ubuntu  :
 ```
-sudo ap-get install inksacape 
+sudo apt-get install inksacape 
 ```
 la segunda es tex live en la version minima  para poder compilar de .tex a .pdf 
 
