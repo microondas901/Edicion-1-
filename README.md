@@ -58,7 +58,8 @@ make
 que en este caso se veria asi:
 
 ```
-Edicion-1--master$ make
+/Edicion-1-$ make
+ 
 ```
 damos enter y esperamos unos minutos mientras se compila nuestro libro 
 
